@@ -1,0 +1,142 @@
+@font-face {
+ font-family: 'BKoodakBold';
+ src: url('/fonts/BKoodakBold.eot'); /* IE */
+ src: local('BKoodakBold'), url('/fonts/BKoodakBold.ttf') format('truetype'); /* non-IE */
+ font-weight:normal;
+}
+
+.subnav td {
+    vertical-align: top;
+}
+
+.subnav .menu {
+    background: #D1D7E2;
+}
+.subnav .content {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.subnav .menu a {
+    display:block;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+.subnav .menu a:hover {
+    background-color: #BED3ED !important;
+}
+
+.subnav a.menuselect {
+    background: #508FDC !important;
+    color: #fff !important;
+}
+
+table.contable td {
+    padding: 5px;
+    background: #F5F6F7;
+    border:solid 1px #F9F9F9;
+    vertical-align: middle;
+}
+
+table.contable tr.top td {
+    background: #F2F2F2 url("img/gray-grad.png") repeat-x left top !important;
+}
+
+table.contable tr.dark td {
+    background-color: #F3F3F3 !important;
+}
+
+.dragHandle {
+    cursor: move;
+}
+
+table.contable tr.over td {
+    background-color: #F1F6F1 !important;
+}
+
+table.contable i {
+    font-style: italic;
+    font-size: 80%;
+    display: block;
+}
+
+/* Simple content paddings */
+.content {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+table.container td {
+    vertical-align: top;
+    padding: 5px;
+}
+
+/* News Divs */
+.news ul  {
+    list-style:none outside none;
+    border:solid 1px #508FDC;
+    background: #F7FBFE;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.news ul li {
+    padding: 5px;
+    border-bottom:solid 1px #508FDC;
+}
+
+.news ul li:last-child {
+    border-bottom:none;
+}
+
+/* About Divs */
+.about {
+    border:solid 1px #C3E33C;
+    background: #FCFEF7;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.about div {
+    padding: 5px;
+    border-bottom:solid 1px #C3E33C;
+}
+
+.about big {
+    font-size: 18px;
+    color: #87A318;
+}
+
+.about div:last-child {
+    border-bottom:none;
+}
+
+
+/* Form Elements */
+
+div.cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.select_skin {
+    background-color: #f7ffe6;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}

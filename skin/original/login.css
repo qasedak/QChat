@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+img {
+	vertical-align: middle;
+	border: 0;
+}
+
+body {
+	background: #F9F9F9;
+	font: 14px "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+	color: #4d4d4d;
+	vertical-align: top;
+}
+
+label {
+	color:#777777;
+	font-size:14px;
+}
+
+.hidden_submit {
+    position: absolute;
+    top: -1000px;
+}
+
+h1 {
+	color: #777777;
+	text-align: center;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:22px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	margin:0;
+	padding-bottom: 20px;
+	text-shadow:0 1px 0 #FFFFFF;
+}
+
+.small {
+	font-size: 11px;
+}
+
+.wrap {
+	width: 340px;
+	margin: 0 auto;	
+	padding: 40px;
+}
+
+
+.loginbox {
+	position: relative;
+	margin-bottom: 30px;
+	padding: 16px 16px 16px 16px;
+	font-weight: normal;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-moz-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+	-webkit-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+	-khtml-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+	box-shadow: rgba(200,200,200,1) 0 4px 18px;
+}
+
+
+.imgclip {
+	position: absolute;
+	top: -16px;
+	right: 16px;
+}
+
+a {
+	color: #696969;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #9D9D9D;
+	text-decoration: none;
+}
+
+input[type=text],
+input[type=password] {
+	font-size: 24px;
+	width: 97%;
+	padding: 3px;
+	margin-top: 2px;
+	margin-right: 6px;
+	margin-bottom: 16px;
+	border: 1px solid #e5e5e5;
+	background: #fbfbfb;
+	color:#555555;
+}
+
+
+
+.bigbuttonholder {
+	margin: 5px;
+	height: 30px;
+}
+
+.bigbuttonholder a {
+	text-decoration: none;
+}	
+
+.bigbutton { 
+	margin-left: 5px;
+	padding-top: 4px;
+	float: left;
+	width: 142px;
+	height: 26px; /*30(img)  - 4 (padding-top) */
+	background: url("img/bigbutton.png") no-repeat 0 0;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:18px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	color: #767676;
+	text-align: center;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+
+.bigbutton_over {
+	background-position: 0 -30px !important;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #767676;
+}
+
+.bigbutton_down {
+	background-position: 0 -60px !important;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #767676;
+}
+
+.alert {
+	margin: 0 8px 16px 8px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 12px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+.error {
+	background-color:#FFEBE8;
+	border-color:#CC0000;
+}
+
+.info {
+	background-color:#E7FFE0;
+	border-color:#A4D342;
+}
+
+.relative {
+	position: relative; 
+}
+
+.uparrow {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: -16px;
+	left: 10px;
+	background: url("img/uparrow.png") no-repeat;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.copyright,
+.copyright a {
+	color: #909090;
+        font-size: 11px;
+}
+
+.copyright {
+        margin-top: -20px;
+        margin-left: 10px;
+	text-align: left;
+}

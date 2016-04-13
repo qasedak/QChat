@@ -1,0 +1,5 @@
+$user = new User();
+
+$user->load(1);
+
+print_r($user->getData());
